@@ -136,6 +136,9 @@ export default defineConfig([
       ],
       // File names should, in principle, be in PascalCase, with some exceptions.
       'unicorn/filename-case': 'off',
+
+      // Due to the nature of this library, `any` is acceptable.
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
 

@@ -1,20 +1,18 @@
 # PLAN.md
 
-> Working specification hub for AI discussions and implementation.
-
 ## 1. 🧾 Meta
 
-- Project:
-- Owner:
-- Updated:
-- Status: `Draft` | `Reviewing` | `Finalized` | `Implemented`
+- Project: normalize-undefiend
+- Owner: Logue
+- Updated: 2026-08-02
+- Status: `Draft`
 
 ## 2. 💡 Draft Spec
 
-- Background:
-- Goal:
+- Background: This introduces the SQL concept of "if a value doesn't exist, it doesn't exist" to JavaScript/TypeScript. In fact, the very design of the TypeScript language assumes the existence of an `undefined` type.
+- Goal: All `null` values ​​in objects and arrays have been converted to `undefiend`.
 - Scope :
-- Out of scope:
+- Out of scope: The only change applied is to converting `null` to `undefiend` for the received data.
 - Requirements:
   - [ ]
   - [ ]

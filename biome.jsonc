@@ -37,7 +37,10 @@
         // Disable this rule to allow default exports in library code.
         "noDefaultExport": "off"
       },
-      "suspicious": "error"
+      "suspicious": {
+        // Due to the nature of this library, `any` is acceptable.
+        "noExplicitAny": "off"
+      }
     }
   },
   // Enable Biome's built-in code assist feature
